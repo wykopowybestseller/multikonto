@@ -1,4 +1,4 @@
-multikonto
+Multikonto
 ==========
 
 > Umierasz i ożywasz w innym ciele, innych okolicznościach, inną rodziną i innymi przyjaciółmi. Dzieje się tak po każdej śmierci, lecz co by było, gdyby można to wykorzystać w jakiś sposób?”
@@ -37,6 +37,6 @@ Na koniec…
 
 Zapraszamy do czytania i podzielenia się opinią.
 
-Książka jest dostępna na licencji Creative Commons 3.0 Polska – Uznanie autorstwa, więc póki nie udajecie, że to wasze dzieło, możecie robić z tym co chcecie.
+„Multikonto” jest objęty licencją Creative Commons Uznanie autorstwa 3.0 Polska.
 
 PS W planach jest wydrukowanie książki. Wstępne koszty to 10-13 PLN za egzemplarz. Ale nie ma jeszcze wybranej drukarni, więc minie pewnie trochę czasu zanim wszystko się ogarnie ;)
