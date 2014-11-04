@@ -1,0 +1,132 @@
+\documentclass[12pt,b5paper,oneside,openany]{book}
+
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{soul}
+\usepackage{microtype}
+\usepackage[utf8]{inputenc}
+\usepackage[OT4]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[b5paper]{geometry}
+\usepackage{pslatex}
+\usepackage{color}
+\usepackage{fourier} % utopia font + fourier
+\usepackage{indentfirst}
+\usepackage{cclicenses}
+\usepackage[%
+colorlinks=true%
+,linkcolor=blue%
+,urlcolor=blue%
+,backref=page%
+]{hyperref}
+\selectlanguage{polish}
+
+% separator między akapitami, odpowiednik asterism - trzech gwiazdek
+\newcommand{\paraSep}{\noindent\makebox[\linewidth]{\resizebox{0.3333\linewidth}{2pt}{$\bullet$}}\bigskip}
+
+% Środowisko do cytatów i wyróżnień (kursywa)
+\newenvironment{itquote}
+{\begin{quote}\itshape}
+{\end{quote}}
+
+% środowisko do śródtytułów (typu: „trzy miesiące później”) (kursywa)
+\newenvironment{paratitle}
+{\begin{quote}\itshape}
+{\end{quote}}
+
+% środowisko do treści SMS (font maszynowy)
+\newenvironment{sms}
+{\begin{quote}\ttfamily\raggedright}
+{\end{quote}}
+
+% wstawianie nicku z linkiem do wykopowego konta
+\newcommand{\nick}[1]
+{\href{http://www.wykop.pl/ludzie/#1}{@#1}}
+
+% Wstawianie autora rozdziału (stosować tuż po tytule rozdziału)
+\newcommand{\chapterAuthor}[1]{\hfill\emph{Autor: \nick{#1}}\par\vspace{10pt}\par}
+
+\begin{document}
+
+\frontmatter
+
+% strona tytułowa
+\input{./templates/titlepage}
+
+\tableofcontents
+
+% Autorzy, licencja
+\input{./templates/intro}
+
+\mainmatter
+
+% Tytuł: Prolog
+% Autor: klik34
+\input{./chapters/chapter01}
+
+% Tytuł: Życie I
+% Autor: klik34
+\input{./chapters/chapter02}
+
+% Tytuł: Życie II
+% Autor: efem
+\input{./chapters/chapter03}
+
+% Tytuł: Życie III, IV, V
+% Autor: Kozajsza
+\input{./chapters/chapter04}
+
+% Tytuł: Życie VI
+% Autor: nt22
+\input{./chapters/chapter05}
+
+% Tytuł: Życie VII
+% Autor: krolka89
+\input{./chapters/chapter06}
+
+% Tytuł: Życie VIII
+% Autor: Pzanty
+\input{./chapters/chapter07}
+
+% Tytuł: Życie IX
+% Autor: fuurikuuri
+\input{./chapters/chapter08}
+
+% Tytuł: Życie X
+% Autor: WarsDman
+\input{./chapters/chapter09}
+
+% Tytuł: Życie XI
+% Autor: M4lutki
+\input{./chapters/chapter10}
+
+% Tytuł: Życie XII
+% Autor: Kontestator
+\input{./chapters/chapter11}
+
+% Tytuł: Życie XIII
+% Autor: Japer
+\input{./chapters/chapter12}
+
+% Tytuł: Życie XIV
+% Autor: Usmiech\_Niebios
+\input{./chapters/chapter13}
+
+% Tytuł: Życie XV
+% Autor: fl4meee
+\input{./chapters/chapter14}
+
+% Tytuł: Życie XVI
+% Autor: BQP
+\input{./chapters/chapter15}
+
+% Tytuł: Epilog
+% Autor: bonnie_21
+\input{./chapters/chapter16}
+
+%Tytuł: Alternatywne zakończenie
+%Autor: Usmiech_Niebios
+\input{./chapters/chapter17}
+
+\end{document}
